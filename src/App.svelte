@@ -1,10 +1,19 @@
 <script>
 	export let name;
+	export let job;
+	var count = 0;
+	const jobs = ["Software Engineer","Full Stack", "Developer", "Modeler"];
+	const clickMe = () => {
+		count = (count+1)%jobs.length;
+		job = jobs[count];
+
+	}
 </script>
 
 <main>
 	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<h1>I hear you want to be a {job}!</h1>
+	<button on:click={clickMe}>Press Me</button>
 </main>
 
 <style>
@@ -16,7 +25,7 @@
 	}
 
 	h1 {
-		color: #ff3e00;
+		color: #ae00ff;
 		text-transform: uppercase;
 		font-size: 4em;
 		font-weight: 100;
