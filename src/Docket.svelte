@@ -1,6 +1,6 @@
 <main>
-    <a>Work hard</a>
-    <a>play hard</a>
+    <p>Work hard</p>
+    <p>play hard</p>
 
 </main>
 

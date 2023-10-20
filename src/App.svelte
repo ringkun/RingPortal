@@ -1,4 +1,6 @@
 <script>
+	import Modal from './Modal.svelte';
+import modal from './Modal.svelte';
 	export let name;
 	export let job;
 	var count = 0;
@@ -9,11 +11,12 @@
 
 	}
 </script>
-
+<Modal></Modal>
 <main>
-	<h1>Hello {name}!</h1>
-	<h1>I hear you want to be a {job}!</h1>
+	<h1>Hello, you.</h1>
+	<h1>I'm looking to be hired as a {job}!</h1>
 	<button on:click={clickMe}>Press Me</button>
+	<a href="NewPage.html">Click me</a>
 </main>
 
 <style>
