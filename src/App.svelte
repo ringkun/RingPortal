@@ -1,6 +1,11 @@
 <script>
-	import Modal from './Modal.svelte';
-import modal from './Modal.svelte';
+
+import { Router, Link, Route } from "svelte-routing";
+  import About from "./routes/About.svelte";
+
+  export let url = "";
+
+  import Modal from './Modal.svelte';
 	export let name;
 	export let job;
 	var count = 0;
@@ -11,12 +16,23 @@ import modal from './Modal.svelte';
 
 	}
 </script>
+
+<Router {url}>
+	<nav>
+	  <Link to="/">Home</Link>
+	  <Link to="/About">About</Link>
+	</nav>
+	<div>
+	  <Route path="/About" component={About} />
+	  <Route path="/"></Route>
+	</div>
+  </Router>
 <Modal></Modal>
 <main>
 	<h1>Hello, you.</h1>
 	<h1>I'm looking to be hired as a {job}!</h1>
 	<button on:click={clickMe}>Press Me</button>
-	<a href="NewPage.html">Click me</a>
+	<a href="About.html">Click me</a>
 </main>
 
 <style>
