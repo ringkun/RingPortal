@@ -1,19 +1,24 @@
-<TopBar>
-</TopBar>
-<hr>
-<div class = "BodyText"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et ligula scelerisque, blandit nisi at, venenatis turpis. Nulla facilisi. Nunc neque orci, rutrum ut lectus vehicula, aliquet feugiat mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque gravida tempor mi, in posuere felis rhoncus eget. Etiam malesuada elit sit amet porttitor consequat. Cras quis eros et arcu pretium congue. Phasellus venenatis dolor sit amet molestie commodo. Vivamus et mi feugiat, vehicula est sed, aliquet erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec ultrices rhoncus arcu, eu mattis tellus efficitur sit amet. Morbi ut neque efficitur, faucibus enim vitae, tincidunt nulla. Phasellus gravida purus justo, a sollicitudin nisl hendrerit id. Donec sed enim tellus.</p>
-</div>
 
-<AffiliateLink></AffiliateLink>
-<script>
-    import TopBar from "./TopBar.svelte";
-    import AffiliateLink from "./AffiliateLink.svelte";
+<script src="https://webglfundamentals.org/webgl/resources/webgl-utils.js">
+    import PageDefault from "./PageDefault.svelte";
 </script>
-
+<canvas id="canvas"></canvas>
+<!--
+for most samples webgl-utils only provides shader compiling/linking and
+canvas resizing because why clutter the examples with code that's the same in every sample.
+See https://webglfundamentals.org/webgl/lessons/webgl-boilerplate.html
+and https://webglfundamentals.org/webgl/lessons/webgl-resizing-the-canvas.html
+for webgl-utils, m3, m4, and webgl-lessons-ui.
+-->
+<PageDefault> 
+    
+</PageDefault>
+<div class = "BodyText">
+    <p>
+        Welcome to my website
+    </p>
+</div>
 <style>
-    :global(body) {
-        background-color: rgb(68, 68, 68);
-    }
     .BodyText{
         /* box-sizing: border-box; */
         left: 10%;
@@ -22,8 +27,9 @@
         position: absolute;
         font-size: 20px;
         font-family: sans-serif;
-        background-color: rgb(23, 240, 240);
+        background-color: rgb(100, 100, 100);
         padding: 20px;
+        border-radius: 10px;
     }
     
 </style>
