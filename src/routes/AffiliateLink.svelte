@@ -1,8 +1,8 @@
 
 <div class = "ColumnCollection" >
-    <div class="Columns"><img src="src\Assets\GitHub-Logo.wine.svg"><a class = "hiddenInfo" href="https://github.com/ringkun">Github</a></div>
+    <div class="Columns"><img src="src\Assets\GitHub-Logo.svg"><a class = "hiddenInfo" href="https://github.com/ringkun">Github</a></div>
     <div class="Columns"><img src="src\Assets\linkedin-icon-2.svg"><a class = "hiddenInfo" href="https://www.linkedin.com/in/william-xue-312874186/">Linkedin</a></div>
-    <div class="Columns"><img src="src\Assets\Gmail-Logo.wine.svg"><a class = "hiddenInfo" >willjiahuexue@gmail.com</a></div>
+    <div class="Columns"><img src="src\Assets\Gmail-Logo.svg"><a class = "hiddenInfo" >willjiahuexue@gmail.com</a></div>
     <div class="Columns"><img src="src\Assets\RPG Gates Logo Faded.svg"><a class = "hiddenInfo" href="https://www.youtube.com/@RingkunProjectGarbage">RPG Youtube Channel</a></div>
 </div>
 
