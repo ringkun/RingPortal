@@ -1,6 +1,6 @@
 <script></script>
 <div class = "index">
-    <a href="/about">About</a>
+    <a href="/About">About</a>
     <a href="/Comp Sci">Comp Sci</a>
     <a href="/Vid Pro">Vid Pro</a>
     <!-- <a >Links</a> -->
@@ -14,12 +14,15 @@
         display: inline-block;
         position: relative;
         font-family:Verdana;
-        font-size: 20px;
+        font-size: 15px;
         border-style: solid;
-        border-radius: 10px;
-        padding: 5px;
+        /* border-radius: 10px; */
+        border-color: rgb(8, 102, 184);
+        padding: 2px;
         /* margin: 5px; */
-        /* box-shadow: 0px 0px 10px 10px rgb(14, 148, 148); */
+        box-shadow: 0px 0px 10px 10px rgb(14, 148, 148);
+        /* width: 50%; */
+        
     }
     .index a{
         /* background-color: aqua; */
