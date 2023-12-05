@@ -8,7 +8,7 @@
     import TopBar from "./TopBar.svelte";
     import AffiliateLink from "./AffiliateLink.svelte";
 </script>
-<iframe frameborder="0" src="https://www.shadertoy.com/embed/mldBRn?gui=false&t=10&paused=false&muted=false" allowfullscreen></iframe>
+<iframe title = "funky backdrop" frameborder="0" src="https://www.shadertoy.com/embed/mldBRn?gui=false&t=10&paused=false&muted=false" allowfullscreen></iframe>
 <style>
     :global(body) {
         background-color: rgb(0, 0, 0);
