@@ -1,9 +1,16 @@
+<script>
+    import GitHubLogo from '$lib/Assets/GitHub-Logo.svg';
+    import LinkedinLogo from '$lib/Assets/linkedin-icon-2.svg';
+    import GmailLogo from '$lib/Assets/Gmail-Logo.svg';
+    import RPGLogo from '$lib/Assets/RPG Gates Logo Faded.svg';
+  </script>
+
 
 <div class = "ColumnCollection" >
-    <div class="Columns"><img src="src\Assets\GitHub-Logo.svg"><a class = "hiddenInfo" href="https://github.com/ringkun">Github</a></div>
-    <div class="Columns"><img src="src\Assets\linkedin-icon-2.svg"><a class = "hiddenInfo" href="https://www.linkedin.com/in/william-xue-312874186/">Linkedin</a></div>
-    <div class="Columns"><img src="src\Assets\Gmail-Logo.svg"><a class = "hiddenInfo" >willjiahuexue@gmail.com</a></div>
-    <div class="Columns"><img src="src\Assets\RPG Gates Logo Faded.svg"><a class = "hiddenInfo" href="https://www.youtube.com/@RingkunProjectGarbage">RPG Youtube Channel</a></div>
+    <div class="Columns"><img src={GitHubLogo} alt = "Github"><a class = "hiddenInfo" href="https://github.com/ringkun">Github</a></div>
+    <div class="Columns"><img src={LinkedinLogo} alt ="Linkedin"><a class = "hiddenInfo" href="https://www.linkedin.com/in/william-xue-312874186/">Linkedin</a></div>
+    <div class="Columns"><img src={GmailLogo} alt = "Gmail"><p class = "hiddenInfo" >willjiahuexue@gmail.com</p></div>
+    <div class="Columns"><img src={RPGLogo} alt = "RPG"><a class = "hiddenInfo" href="https://www.youtube.com/@RingkunProjectGarbage">RPG Youtube Channel</a></div>
 </div>
 
 <style>
