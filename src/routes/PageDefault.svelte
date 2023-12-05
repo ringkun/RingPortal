@@ -13,7 +13,7 @@
     :global(body) {
         background-color: rgb(0, 0, 0);
     }
-    .BodyText{
+    :global(.BodyText){
         /* box-sizing: border-box; */
         left: 10%;
         right: 10%;
