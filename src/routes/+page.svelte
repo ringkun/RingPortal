@@ -14,6 +14,7 @@ for webgl-utils, m3, m4, and webgl-lessons-ui.
 </PageDefault>
 <canvas id="canvas"></canvas>
 <h1 class = "BigandLoud">WILLIAM XUE</h1>
+<h1 class = "BigandLoud">Index</h1>
 <div class = "BodyText">
     <p>
         Welcome to my website
