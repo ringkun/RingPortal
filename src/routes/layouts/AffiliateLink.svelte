@@ -9,7 +9,7 @@
 <div class = "ColumnCollection" >
     <div class="Columns"><img src={GitHubLogo} alt = "Github"><a class = "hiddenInfo" href="https://github.com/ringkun">Github</a></div>
     <div class="Columns"><img src={LinkedinLogo} alt ="Linkedin"><a class = "hiddenInfo" href="https://www.linkedin.com/in/william-xue-312874186/">Linkedin</a></div>
-    <div class="Columns"><img src={GmailLogo} alt = "Gmail"><p class = "hiddenInfo" >willjiahuexue@gmail.com</p></div>
+    <div class="Columns"><img src={GmailLogo} alt = "Gmail"><a class = "hiddenInfo" href="mailto:willjiahuexue@gmail.com">willjiahuexue@gmail.com</a></div>
     <div class="Columns"><img src={RPGLogo} alt = "RPG"><a class = "hiddenInfo" href="https://www.youtube.com/@RingkunProjectGarbage">RPG Youtube Channel</a></div>
 </div>
 
@@ -20,7 +20,6 @@
         height: 25px;
         transition: 1s;
         background-color: aquamarine;
-        /* position: absolute; */
         width: 25px;
         outline: 5px;
         outline-color: black;
