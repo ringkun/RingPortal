@@ -1,6 +1,6 @@
 
 <script>
-    import PageDefault from "../PageDefault.svelte";
+    import PageDefault from "../layouts/PageDefault.svelte";
     import ExampleVideo from "./ExampleVideo.svelte";
 </script>
 

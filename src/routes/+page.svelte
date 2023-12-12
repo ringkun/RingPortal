@@ -1,6 +1,8 @@
-
-<script src="https://webglfundamentals.org/webgl/resources/webgl-utils.js">
+<!-- <script src="https://webglfundamentals.org/webgl/resources/webgl-utils.js">
     import PageDefault from "./PageDefault.svelte";
+</script> -->
+<script>
+    import PageDefault from "./layouts/PageDefault.svelte";
 </script>
 <!--
 for most samples webgl-utils only provides shader compiling/linking and
@@ -12,7 +14,7 @@ for webgl-utils, m3, m4, and webgl-lessons-ui.
 <PageDefault> 
     
 </PageDefault>
-<canvas id="canvas"></canvas>
+<!-- <canvas id="canvas"></canvas> -->
 <h1 class = "BigandLoud">WILLIAM XUE</h1>
 <h1 class = "BigandLoud">Index</h1>
 <div class = "BodyText">

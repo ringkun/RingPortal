@@ -2,9 +2,10 @@
     import {base} from '$app/paths'
 </script>
 <div class = "index">
-    <a href="{base}/About">About</a>
-    <a href="{base}/Comp Sci">Comp Sci</a>
-    <a href="{base}/Vid Pro">Vid Pro</a>
+    <a href="{base}/">Home</a>
+    <a href="{base}/about">About</a>
+    <a href="{base}/comp-sci">Comp Sci</a>
+    <a href="{base}/vid-pro">Vid Pro</a>
     <!-- <a >Links</a> -->
 </div>
 <style>
