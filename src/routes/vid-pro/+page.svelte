@@ -6,6 +6,36 @@
 
 <PageDefault> 
 </PageDefault>
+<div class = "Category">Animation
+    <hr>
+    <div>
+        <ExampleVideo 
+            videoLink = "https://www.youtube.com/embed/rkURiiBngac?start=0&end=72&vq=hd1080&modestbranding=1&rel=0&iv_load_policy=3&fs=0&color=white&controls=0" 
+            videoTitle = "Silverhands Collaboration Trailer" 
+            videoDesc = "A trailer for a video project among friends">
+        </ExampleVideo>
+        <ExampleVideo 
+            videoLink = "https://www.youtube.com/embed/jsR20hXXdrk?&vq=hd1080&modestbranding=1&rel=0&iv_load_policy=3&fs=0&color=white&controls=0" 
+            videoTitle = "Lip Sync Challenge Promotional animation" 
+            videoDesc = "A intro promo animation for a Lip Sync Challenge segment">
+        </ExampleVideo>
+    </div>
+</div>
+<div class = "Category">Motion Graphics
+    <hr>
+    <div>
+        <ExampleVideo 
+            videoLink = "https://www.youtube.com/embed/qJcbZyVYRws?&vq=hd1080&modestbranding=1&rel=0&iv_load_policy=3&fs=0&color=white&controls=0" 
+            videoTitle = "Scot Pilgrim Shotlist" 
+            videoDesc = "An assignment listing the filming techniques and shot types of a given scene. I gave it my own flare with motion graphics.">
+        </ExampleVideo>
+        <ExampleVideo 
+            videoLink = "https://www.youtube.com/embed/nep4NiuK96Y?&vq=hd1080&modestbranding=1&rel=0&iv_load_policy=3&fs=0&color=white&controls=0" 
+            videoTitle = "Camera Eye Music Video" 
+            videoDesc = "A fan made music video for the song 'Camera Eye' by VHS head.">
+        </ExampleVideo>
+    </div>
+</div>
 
 <div class = "Category">Misc. Editing Work
     <hr>
@@ -23,16 +53,7 @@
     </div>
 </div>
 
-<div class = "Category">Animation
-    <hr>
-    <div>
-        <ExampleVideo 
-            videoLink = "https://www.youtube.com/embed/rkURiiBngac?start=0&end=72&vq=hd1080&modestbranding=1&rel=0&iv_load_policy=3&fs=0&color=white&controls=0" 
-            videoTitle = "Silverhands Collaboration Trailer" 
-            videoDesc = "A trailer for a video project among friends">
-        </ExampleVideo>
-    </div>
-</div>
+
 
 
 

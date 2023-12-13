@@ -19,7 +19,7 @@
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         height: 25px;
         transition: 1s;
-        background-color: aquamarine;
+        background-color: rgb(0, 0, 0);
         width: 25px;
         outline: 5px;
         outline-color: black;
@@ -39,7 +39,7 @@
         left: 0px;
     }
     .Columns:nth-child(odd){
-        background-color: rgb(127, 157, 255);
+        background-color: rgb(255, 255, 255);
     }
     .hiddenInfo{
         position: relative;
