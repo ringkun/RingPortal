@@ -93,7 +93,7 @@
     grid-template-columns: repeat(6, 1fr);
     gap: 2px;
     overflow: scroll;
-    scrollbar-color: red orange;
+    scrollbar-color: rgb(0, 140, 255) rgb(0, 225, 255);
     scrollbar-width: thin;
 }
 

@@ -3,9 +3,10 @@
 </script>
 <div class = "index">
     <a href="{base}/">Home</a>
-    <a href="{base}/about">About</a>
-    <a href="{base}/comp-sci">Comp Sci</a>
-    <a href="{base}/vid-pro">Vid Pro</a>
+    <a href="{base}/comp-sci">Comp Sci.</a>
+    <a href="{base}/vid-pro">Vid Pro.</a>
+    <a href="{base}/game-dev">Game Dev.</a>
+    <a href="{base}/3D-Modeling">3D Modeling.</a>
     <!-- <a >Links</a> -->
 </div>
 <style>
