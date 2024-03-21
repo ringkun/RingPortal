@@ -1,14 +1,33 @@
 <TopBar>
+
 </TopBar>
+<button on:click={()=>toggleBG()}>Toggle Background if it is too annoying</button>
 <hr>
 
 
 <AffiliateLink></AffiliateLink>
+
+<iframe id="toggleBG" title = "funky backdrop" frameborder="0" src="https://www.shadertoy.com/embed/mldBRn?gui=false&t=10&paused=false&muted=false" allowfullscreen></iframe>
+
 <script>
     import TopBar from "./TopBar.svelte";
     import AffiliateLink from "./AffiliateLink.svelte";
+    function toggleBG() {
+        console.log("Working");
+        let tBG = document.getElementById("toggleBG");
+        if (tBG === null){
+            alert("Doesn't exist");
+        }
+        else{        
+            if (tBG.style.display === "none") {
+                tBG.style.display = "block";
+            } else {
+                tBG.style.display = "none";
+            };
+        }
+
+    };
 </script>
-<iframe title = "funky backdrop" frameborder="0" src="https://www.shadertoy.com/embed/mldBRn?gui=false&t=10&paused=false&muted=false" allowfullscreen></iframe>
 <style>
     :global(body) {
         background-color: rgb(0, 0, 0);
@@ -43,15 +62,16 @@
         position: relative;
         font-size: 20px;
         font-family: sans-serif;
-        background-color: rgba(42, 150, 177, 1);       
+        background-color: rgba(42, 150, 177, .2);       
         padding: 10px;
         margin: 10px;
         border-radius: 10px;
         mix-blend-mode: difference;
+        color: white;
     }
     :global(.Emphasis){
         font-size: 30px;
-        color: rgb(0, 195, 255);
+        color: rgb(255, 0, 0);
         text-shadow: 0 0 20px #fff, 0 0 30px #4dffff, 0 0 40px #4d94ff, 0 0 50px #4d7cff, 0 0 60px #4d50ff, 0 0 70px #4dafff, 0 0 80px #ff4da6;
     }
     :global(.h1){
