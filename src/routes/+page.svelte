@@ -27,11 +27,16 @@ for webgl-utils, m3, m4, and webgl-lessons-ui.
 </div>
 <div class = "BodyText">
     <h1 class="Emphasis">Where I began</h1>  
-    I started my career in to computer science when I was in Middle School in 2012, through <span class = "Emphasis">game development</span> on the now massively popular game development platform "Roblox". 
-    From producing rudimentary programs to short form experiences, my start into programming was humble but critically formative.
-
-    In highschool I took a <span class="Emphasis">video productions</span> class and found myself in love with post-production through the Final Cut Pro video editing program. Eventually this became a keen interest and a secondary career.
+    <p>    I started my career in to computer science when I was in Middle School in 2012, through <span class = "Emphasis">game development</span> on the now massively popular game development platform "Roblox". 
+        From producing rudimentary programs to short form experiences, my start into programming was humble but critically formative.
+    </p>
+    <p>    In highschool I took a <span class="Emphasis">video productions</span> class and found myself in love with post-production through the Final Cut Pro video editing program. Eventually this became a keen interest and a secondary career.
+    </p>
 </div> 
+<div class="BodyText">
+    <h1 class="Emphasis">Education</h1>  
+
+</div>
 <style>
     .BigandLoud{
         color: aliceblue;
