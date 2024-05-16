@@ -8,7 +8,7 @@
 
 </TopBar>
 
-<button on:click={()=>toggleBG()} id = "toggleButton">Toggle Background if it is too annoying</button>
+<!-- <button on:click={()=>toggleBG()} id = "toggleButton">Toggle Background if it is too annoying</button> -->
 <hr>
 
 

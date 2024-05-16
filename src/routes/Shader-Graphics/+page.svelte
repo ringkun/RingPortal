@@ -14,7 +14,7 @@
     iframe {
         position: relative; 
         width: 40%; 
-        /* height: 50%;  */
+        height: 50%; 
         top: 60px; 
         right: 0; 
         bottom: 0; 
