@@ -29,18 +29,21 @@ devDependencies:
   prettier-plugin-svelte:
     specifier: ^2.10.1
     version: 2.10.1(prettier@2.8.8)(svelte@4.2.8)
+  sass:
+    specifier: ^1.72.0
+    version: 1.77.1
   svelte:
     specifier: ^4.0.5
     version: 4.2.8
   svelte-check:
     specifier: ^3.4.3
-    version: 3.6.2(svelte@4.2.8)
+    version: 3.6.2(sass@1.77.1)(svelte@4.2.8)
   typescript:
     specifier: ^5.0.0
     version: 5.3.2
   vite:
     specifier: ^4.4.2
-    version: 4.5.1
+    version: 4.5.1(sass@1.77.1)
 
 packages:
 
@@ -397,7 +400,7 @@ packages:
       svelte: 4.2.8
       tiny-glob: 0.2.9
       undici: 5.26.5
-      vite: 4.5.1
+      vite: 4.5.1(sass@1.77.1)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -413,7 +416,7 @@ packages:
       '@sveltejs/vite-plugin-svelte': 2.5.3(svelte@4.2.8)(vite@4.5.1)
       debug: 4.3.4
       svelte: 4.2.8
-      vite: 4.5.1
+      vite: 4.5.1(sass@1.77.1)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -432,7 +435,7 @@ packages:
       magic-string: 0.30.5
       svelte: 4.2.8
       svelte-hmr: 0.15.3(svelte@4.2.8)
-      vite: 4.5.1
+      vite: 4.5.1(sass@1.77.1)
       vitefu: 0.2.5(vite@4.5.1)
     transitivePeerDependencies:
       - supports-color
@@ -930,6 +933,10 @@ packages:
       - supports-color
     dev: true
 
+  /immutable@4.3.6:
+    resolution: {integrity: sha512-Ju0+lEMyzMVZarkTn/gqRpdqd5dOPaz1mCZ0SH3JV6iFw81PldE/PEB1hWVEA288HPt4WXW8O7AWxB10M+03QQ==}
+    dev: true
+
   /import-fresh@3.3.0:
     resolution: {integrity: sha512-veYYhQa+D1QBKznvhUHxb8faxlrwUnxseDAbAp457E0wLNio2bOSKnjYDhMj+YiAq61xrMGhQk9iXVk5FzgQMw==}
     engines: {node: '>=6'}
@@ -1376,6 +1383,16 @@ packages:
       rimraf: 2.7.1
     dev: true
 
+  /sass@1.77.1:
+    resolution: {integrity: sha512-OMEyfirt9XEfyvocduUIOlUSkWOXS/LAt6oblR/ISXCTukyavjex+zQNm51pPCOiFKY1QpWvEH1EeCkgyV3I6w==}
+    engines: {node: '>=14.0.0'}
+    hasBin: true
+    dependencies:
+      chokidar: 3.5.3
+      immutable: 4.3.6
+      source-map-js: 1.0.2
+    dev: true
+
   /semver@6.3.1:
     resolution: {integrity: sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==}
     hasBin: true
@@ -1461,7 +1478,7 @@ packages:
       escape-string-regexp: 1.0.5
     dev: true
 
-  /svelte-check@3.6.2(svelte@4.2.8):
+  /svelte-check@3.6.2(sass@1.77.1)(svelte@4.2.8):
     resolution: {integrity: sha512-E6iFh4aUCGJLRz6QZXH3gcN/VFfkzwtruWSRmlKrLWQTiO6VzLsivR6q02WYLGNAGecV3EocqZuCDrC2uttZ0g==}
     hasBin: true
     peerDependencies:
@@ -1474,7 +1491,7 @@ packages:
       picocolors: 1.0.0
       sade: 1.8.1
       svelte: 4.2.8
-      svelte-preprocess: 5.1.1(svelte@4.2.8)(typescript@5.3.2)
+      svelte-preprocess: 5.1.1(sass@1.77.1)(svelte@4.2.8)(typescript@5.3.2)
       typescript: 5.3.2
     transitivePeerDependencies:
       - '@babel/core'
@@ -1497,7 +1514,7 @@ packages:
       svelte: 4.2.8
     dev: true
 
-  /svelte-preprocess@5.1.1(svelte@4.2.8)(typescript@5.3.2):
+  /svelte-preprocess@5.1.1(sass@1.77.1)(svelte@4.2.8)(typescript@5.3.2):
     resolution: {integrity: sha512-p/Dp4hmrBW5mrCCq29lEMFpIJT2FZsRlouxEc5qpbOmXRbaFs7clLs8oKPwD3xCFyZfv1bIhvOzpQkhMEVQdMw==}
     engines: {node: '>= 14.10.0'}
     requiresBuild: true
@@ -1538,6 +1555,7 @@ packages:
       '@types/pug': 2.0.10
       detect-indent: 6.1.0
       magic-string: 0.27.0
+      sass: 1.77.1
       sorcery: 0.11.0
       strip-indent: 3.0.0
       svelte: 4.2.8
@@ -1627,7 +1645,7 @@ packages:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: true
 
-  /vite@4.5.1:
+  /vite@4.5.1(sass@1.77.1):
     resolution: {integrity: sha512-AXXFaAJ8yebyqzoNB9fu2pHoo/nWX+xZlaRwoeYUxEqBO+Zj4msE5G+BhGBll9lYEKv9Hfks52PAF2X7qDYXQA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -1658,6 +1676,7 @@ packages:
       esbuild: 0.18.20
       postcss: 8.4.32
       rollup: 3.29.4
+      sass: 1.77.1
     optionalDependencies:
       fsevents: 2.3.3
     dev: true
@@ -1670,7 +1689,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 4.5.1
+      vite: 4.5.1(sass@1.77.1)
     dev: true
 
   /webidl-conversions@3.0.1:
