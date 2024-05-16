@@ -7,6 +7,7 @@
     <a href="{base}/vid-pro">Vid Pro.</a>
     <a href="{base}/game-dev">Game Dev.</a>
     <a href="{base}/3D-Modeling">3D Modeling.</a>
+    <a href="{base}/Shader-Graphics">Shader Graphics</a>
     <!-- <a >Links</a> -->
 </div>
 <style>
