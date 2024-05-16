@@ -35,7 +35,7 @@ for webgl-utils, m3, m4, and webgl-lessons-ui.
 </div> 
 <div class="BodyText">
     <h1 class="Emphasis">Education</h1>  
-
+    <p>University of Colorado Boulder (2018-2022) Bachelor's Degree in Computer Science Major</p>
 </div>
 <style>
     .BigandLoud{
@@ -50,9 +50,9 @@ for webgl-utils, m3, m4, and webgl-lessons-ui.
     }
 
     .Emphasis{
-        font-size: 30px;
+        font-size: 20px;
         color: rgb(0, 195, 255);
-        text-shadow: 0 0 20px #fff, 0 0 30px #4dffff, 0 0 40px #4d94ff, 0 0 50px #4d7cff, 0 0 60px #4d50ff, 0 0 70px #4dafff, 0 0 80px #ff4da6;
+        text-shadow: 0 0 20px #ffffff00, 0 0 30px #4dffff, 0 0 40px #4d94ff, 0 0 50px #4d7cff, 0 0 60px #4d50ff, 0 0 70px #4dafff, 0 0 80px #ff4da6;
     }
     .h1{
         font-size: 30px;
