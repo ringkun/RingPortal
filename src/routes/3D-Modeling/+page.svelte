@@ -1,17 +1,21 @@
 <script>
     import PageDefault from "../layouts/PageDefault.svelte";
+    import Durandal from "src/lib/Assets/3DModelShowcase/Durandal View.png";
 </script>
 
 <PageDefault> 
 </PageDefault>
 <div class = "Gallery">
     <video width="50%" height="240" autoplay loop>
-    <source src="src\lib\Assets\Animation\Sunshine.mp4" type="video/mp4">
-  </video>
-  <img src = "src\lib\Assets\3DModelShowcase\Durandal View.png" height = 240px>
-  <img src = "src\lib\Assets\3DModelShowcase\Laevatinn View.png" height = 240px>
-  <img src = "src\lib\Assets\3DModelShowcase\Mimicry View.png" width = 500px class="centered">
-
+        <track kind="captions">
+        <source src="src\lib\Assets\Animation\Sunshine.mp4" type="video/mp4">
+    </video>
+  <!-- <img  alt = "Durandal" src = "src\lib\Assets\ModelShowcase\Durandal View.png" height = 240px>
+  <img alt = "Laevatinn" src = "src\lib\Assets\ModelShowcase\Laevatinn View.png" height = 240px>
+  <img alt ="mimicry" src = "src\lib\Assets\ModelShowcase\Mimicry View.png" width = 500px class="centered"> -->
+  <img  alt = "Durandal" src = {Durandal} height = 240px>
+  <!-- <img alt = "Laevatinn" src = "src\lib\Assets\ModelShowcase\Laevatinn View.png" height = 240px>
+  <img alt ="mimicry" src = "src\lib\Assets\ModelShowcase\Mimicry View.png" width = 500px class="centered"> -->
 </div>
 <style>
     .BodyText{
