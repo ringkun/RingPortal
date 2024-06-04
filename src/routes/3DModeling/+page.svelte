@@ -6,14 +6,13 @@
 <PageDefault> 
 </PageDefault>
 <div class = "Gallery">
-    <!-- <img  alt = "Durandal" src = "/images/DurandalView.png" height = 240px> -->
-    <!-- <video width="50%" height="240" autoplay loop>
+    <video width="50%" height="240" autoplay loop>
         <track kind="captions">
-        <source src="src\lib\Assets\Animation\Sunshine.mp4" type="video/mp4">
-    </video> -->
+        <source src="\Animation\Sunshine.mp4" type="video/mp4">
+    </video>
   <img  alt = "Durandal" src = "/images/DurandalView.png" height = 240px>
   <img alt = "Laevatinn" src = "/images/LaevatinnView.png" height = 240px>
-  <img alt ="mimicry" src = "/images/MimicryView.png" width = 500px class="centered">
+  <img alt ="mimicry" src = "/images/MimicryView.png" width = 500px >
 </div>
 <style>
     .BodyText{
