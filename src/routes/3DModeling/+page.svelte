@@ -10,7 +10,7 @@
         <track kind="captions">
         <source src="\Animation\Sunshine.mp4" type="video/mp4">
     </video>
-  <img  alt = "Durandal" src = "/images/DurandalView.png" height = 240px>
+  <img alt = "Durandal" src = "/images/DurandalView.png" height = 240px>
   <img alt = "Laevatinn" src = "/images/LaevatinnView.png" height = 240px>
   <img alt ="mimicry" src = "/images/MimicryView.png" width = 500px >
 </div>
