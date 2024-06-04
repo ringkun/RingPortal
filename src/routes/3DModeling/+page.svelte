@@ -1,15 +1,15 @@
 <script>
     import PageDefault from "../layouts/PageDefault.svelte";
-    import Durandal from "src/lib/Assets/3DModelShowcase/Durandal View.png";
+    import Durandal from "/Durandal View.png";
 </script>
 
 <PageDefault> 
 </PageDefault>
 <div class = "Gallery">
-    <video width="50%" height="240" autoplay loop>
+    <!-- <video width="50%" height="240" autoplay loop>
         <track kind="captions">
         <source src="src\lib\Assets\Animation\Sunshine.mp4" type="video/mp4">
-    </video>
+    </video> -->
   <!-- <img  alt = "Durandal" src = "src\lib\Assets\ModelShowcase\Durandal View.png" height = 240px>
   <img alt = "Laevatinn" src = "src\lib\Assets\ModelShowcase\Laevatinn View.png" height = 240px>
   <img alt ="mimicry" src = "src\lib\Assets\ModelShowcase\Mimicry View.png" width = 500px class="centered"> -->
