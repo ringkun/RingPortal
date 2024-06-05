@@ -6,10 +6,10 @@
 <PageDefault> 
 </PageDefault>
 <div class = "Gallery">
-    <video width="50%" height="240" autoplay loop>
+    <!-- <video width="50%" height="240" autoplay loop>
         <track kind="captions">
         <source src="\Animation\Sunshine.mp4" type="video/mp4">
-    </video>
+    </video> -->
   <img alt = "Durandal" src = "/images/DurandalView.png" height = 240px>
   <img alt = "Laevatinn" src = "/images/LaevatinnView.png" height = 240px>
   <img alt ="mimicry" src = "/images/MimicryView.png" width = 500px >
