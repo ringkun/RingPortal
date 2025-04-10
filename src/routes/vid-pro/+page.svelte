@@ -21,6 +21,37 @@
         </ExampleVideo>
     </div>
 </div>
+<div class = "Category"> Cyber Qubits
+    <hr>
+    <div>
+        <ExampleVideo 
+            videoLink = "https://www.youtube.com/watch?v=mnE4gPpNrV0" 
+            videoTitle = "WIN BIG SCHOLARSHIP CONTEST" 
+            videoDesc = "Week 1">
+        </ExampleVideo>
+        <ExampleVideo 
+            videoLink = "https://www.youtube.com/watch?v=lGnl_gNcN3s&pp=0gcJCX4JAYcqIYzv" 
+            videoTitle = "HEY KID DO YOU WANT A SCHOLARSHIP?" 
+            videoDesc = "Week 2">
+        </ExampleVideo>
+        <ExampleVideo 
+            videoLink = "https://www.youtube.com/watch?v=96OOAX9tcew" 
+            videoTitle = "WHY HAVEN'T YOU GOTTEN A SCHOLARSHIP" 
+            videoDesc = "Week 3">
+        </ExampleVideo>
+        <ExampleVideo 
+            videoLink = "https://www.youtube.com/watch?v=0X5k4UVOeBA" 
+            videoTitle = "ENOUGH SCHOLARSHIPS IT'S TIME FOR CYBER SECURITY" 
+            videoDesc = "Week 4">
+        </ExampleVideo>
+        <ExampleVideo 
+        videoLink = "hhttps://www.youtube.com/watch?v=v2sp38N5ogc" 
+        videoTitle = "YO YOU WANT TO LEARN ABOUT CUBES (IN CYBER SECURITY)?" 
+        videoDesc = "Week 5">
+    </ExampleVideo>
+    </div>
+</div>
+
 <div class = "Category">Motion Graphics
     <hr>
     <div>
