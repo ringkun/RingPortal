@@ -23,5 +23,8 @@ export default {
         adapter: adapter({
             // see the 'Deployment configuration' section below
         })
+    },
+    paths: {
+        base: ''
     }
 };
