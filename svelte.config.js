@@ -22,9 +22,10 @@ export default {
     kit: {
         adapter: adapter({
             // see the 'Deployment configuration' section below
-        })
-    },
-    paths: {
-        base: ''
+        }),
+        paths: {
+            base: ''
+        }
     }
+
 };
