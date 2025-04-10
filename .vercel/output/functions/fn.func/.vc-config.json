@@ -1,0 +1,6 @@
+{
+	"runtime": "nodejs20.x",
+	"handler": "..\\..\\..\\..\\..\\..\\..\\Users\\ringk\\OneDrive\\Documents\\GitHub\\ringkunportfolio\\.svelte-kit\\vercel-tmp\\index.js",
+	"launcherType": "Nodejs",
+	"experimentalResponseStreaming": true
+}

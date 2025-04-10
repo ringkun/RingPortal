@@ -1,0 +1,93 @@
+{
+	"version": 3,
+	"routes": [
+		{
+			"src": "/3DModeling",
+			"dest": "/3DModeling/"
+		},
+		{
+			"src": "/3DModeling/",
+			"status": 308,
+			"headers": {
+				"Location": "/3DModeling"
+			}
+		},
+		{
+			"src": "/Shader-Graphics",
+			"dest": "/Shader-Graphics/"
+		},
+		{
+			"src": "/Shader-Graphics/",
+			"status": 308,
+			"headers": {
+				"Location": "/Shader-Graphics"
+			}
+		},
+		{
+			"src": "/comp-sci",
+			"dest": "/comp-sci/"
+		},
+		{
+			"src": "/comp-sci/",
+			"status": 308,
+			"headers": {
+				"Location": "/comp-sci"
+			}
+		},
+		{
+			"src": "/game-dev",
+			"dest": "/game-dev/"
+		},
+		{
+			"src": "/game-dev/",
+			"status": 308,
+			"headers": {
+				"Location": "/game-dev"
+			}
+		},
+		{
+			"src": "/vid-pro",
+			"dest": "/vid-pro/"
+		},
+		{
+			"src": "/vid-pro/",
+			"status": 308,
+			"headers": {
+				"Location": "/vid-pro"
+			}
+		},
+		{
+			"src": "/_app/immutable/.+",
+			"headers": {
+				"cache-control": "public, immutable, max-age=31536000"
+			}
+		},
+		{
+			"handle": "filesystem"
+		},
+		{
+			"src": "/.*",
+			"dest": "/fn"
+		}
+	],
+	"overrides": {
+		"index.html": {
+			"path": ""
+		},
+		"3DModeling.html": {
+			"path": "3DModeling"
+		},
+		"Shader-Graphics.html": {
+			"path": "Shader-Graphics"
+		},
+		"comp-sci.html": {
+			"path": "comp-sci"
+		},
+		"game-dev.html": {
+			"path": "game-dev"
+		},
+		"vid-pro.html": {
+			"path": "vid-pro"
+		}
+	}
+}
